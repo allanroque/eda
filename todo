@@ -3,3 +3,14 @@
 The 'extensions/eda/rulebooks' or 'rulebooks' directory doesn't exist within the project root 
 
 necessário criar um diretório rulebooks e eda-rulebooks
+
+
+loglevel
+lib/python3.9/site-packages/aap_eda/settings/default.py
+# ---------------------------------------------------------
+# RULEBOOK ENGINE LOG LEVEL
+# ---------------------------------------------------------
+ANSIBLE_RULEBOOK_LOG_LEVEL = settings.get("ANSIBLE_RULEBOOK_LOG_LEVEL", "-vvv")
+ANSIBLE_RULEBOOK_FLUSH_AFTER = settings.get("ANSIBLE_RULEBOOK_FLUSH_AFTER", 1)
+/etc/ansible-automation-platform/eda/environment
+lib/python3.9/site-packages/ansible_rulebook/cli.py
