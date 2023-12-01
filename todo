@@ -1,0 +1,5 @@
+
+- Criar um kb para o erro:
+The 'extensions/eda/rulebooks' or 'rulebooks' directory doesn't exist within the project root 
+
+necessário criar um diretório rulebooks e eda-rulebooks

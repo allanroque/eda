@@ -9,10 +9,7 @@
 
   rules:
     - name: Webserver down
-      condition: event.payload.event == "apache service down"
-  ## Define the action we should take should the condition be met
+      condition: event.payload.event == "ola"
       action:
-        #pretty: true
-        run_workflow_template:
-          name: "SH - WORKFLOW - WEB"
-
+        debug:
+          msg: Simple debug message
